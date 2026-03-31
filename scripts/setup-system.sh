@@ -12,7 +12,4 @@ for bin in nvim lazygit jj yazi nwg-displays; do
     fi
 done
 
-echo "Exporting nwg-displays as desktop app..."
-distrobox enter "$CONTAINER" -- distrobox-export --app nwg-displays
-
 echo "System container setup complete."
